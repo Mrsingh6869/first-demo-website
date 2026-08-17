@@ -30,9 +30,17 @@ and all the changes permanent save using **git commit -m "ui complete"**
 
 **git log** it show all the commits 
 
-**git commit --amend -m "Removedd nice because boss says"** Ang in this command we can add the commits in previous ones.
+**git commit --amend -m "Removedd nice because boss says"** And in this command we can add the commits in previous ones commit.
 
--> Now We create a branch it means like (Zip file) of original one 
+
+-> Now We create a branch it means like **(Zip file)** of original one 
 
 **git switch -c feature-revolution**
 using this command we can create and open a new branch (it means when i do changes in this branch never do changes in original one)
+
+if we want to merge the original branch(master) and the secondary branch we use this 
+**git merge second_branch-name**
+
+**git switch branch-name** using this we can switch the branch.
+
+**git branch -d branch_name** we can delete the branch at any time.
