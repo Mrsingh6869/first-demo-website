@@ -26,3 +26,13 @@ and all the changes permanent save using **git commit -m "ui complete"**
 
 
 **git log** it tell us how many snapshots(time commit/history) are there in our project
+
+
+**git log** it show all the commits 
+
+**git commit --amend -m "Removedd nice because boss says"** Ang in this command we can add the commits in previous ones.
+
+-> Now We create a branch it means like (Zip file) of original one 
+
+**git switch -c feature-revolution**
+using this command we can create and open a new branch (it means when i do changes in this branch never do changes in original one)
