@@ -44,3 +44,5 @@ if we want to merge the original branch(master) and the secondary branch we use 
 **git switch branch-name** using this we can switch the branch.
 
 **git branch -d branch_name** we can delete the branch at any time.
+
+**git branch -m old-name new-name** using this we can change the branch change 
